@@ -63,4 +63,4 @@ tidy_data0 <- aggregate(data[,1:561], by=list(data$n), mean)
 tidy_data <- aggregate(extra[,1:66], by=list(extra$n), mean)
 
 write.table(tidy_data, file="tidy_data.txt", sep="\t")
-write.table(tidy_data0, file="tidy_data0.txt", sep="\t")
+#write.table(tidy_data0, file="tidy_data0.txt", sep="\t")
