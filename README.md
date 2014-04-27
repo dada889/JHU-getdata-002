@@ -4,8 +4,8 @@ tidy_data.txt is the tidy data set according to the instructions in the project 
 
 ### run_analysis.R can be run as long as the data set 'UCI HAR Dataset' in the same directory. The output of this script is tidy_data.txt.
 ###This script includes five parts:
-    Uses descriptive activity names to name the activities in the data set.<br />
-    merges the training and the test sets.<br />
-    Extracts only the measurements on the mean and standard deviation for each measurement. <br />
-    Appropriately labels the data set with descriptive activity names. <br />
-    Creates a second, independent tidy data set with the average of each variable for each activity and each subject.<br />
+    Uses descriptive activity names to name the activities in the data set.
+    merges the training and the test sets.
+    Extracts only the measurements on the mean and standard deviation for each measurement. 
+    Appropriately labels the data set with descriptive activity names. 
+    Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
